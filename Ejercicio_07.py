@@ -2,4 +2,4 @@
 # consola y muestre por pantalla otro correo electrónico con el mismo nombre
 # (la parte delantera de la arroba @) pero con dominio ceu.es.
 correo = input("Escribe tu correo electrónico: ")
-print(correo[:correo.find('@')] + '@ceu.es')
+print(correo[:correo.find("@")] + "@ceu.es")
